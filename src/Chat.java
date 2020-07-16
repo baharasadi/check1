@@ -102,7 +102,7 @@ public class Chat extends Application {
             if(!client.connect(address, port)) {
                 JOptionPane.showMessageDialog(null,
                         "Connection to " + address + " failed.",
-                        "FxCht",
+                        "Chat",
                         JOptionPane.ERROR_MESSAGE);
                 Platform.exit();
             }
